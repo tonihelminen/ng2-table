@@ -27,7 +27,7 @@ export class NgTableSortingDirective {
           this.column.sort = 'desc';
           break;
         case 'desc':
-          this.column.sort = '';
+          this.column.sort = 'asc';
           break;
         default:
           this.column.sort = 'asc';
